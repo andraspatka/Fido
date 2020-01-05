@@ -1,4 +1,4 @@
-CXXFLAGS += -std=c++11
+CXXFLAGS += -std=c++11 -fPIC
 PREFIX?=/usr/local
 ifneq ($(wildcard src/Simulator/.*),)
     $(info Compiling with SFML flags)
